@@ -20,9 +20,13 @@
     <GridView
         android:layout_width="358dp"
         android:layout_height="580dp"
+        android:numColumns="2"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="26dp" />
+        app:layout_constraintVertical_bias="0.675" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
