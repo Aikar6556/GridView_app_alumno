@@ -6,7 +6,7 @@ public class Alumno {
     private String nombreAlumno;
 
 
-    public Alumno(int avatar, String nombreAlumno) {
+    public Alumno(String nombreAlumno, int avatar ) {
         this.avatar = avatar;
         this.nombreAlumno = nombreAlumno;
     }
