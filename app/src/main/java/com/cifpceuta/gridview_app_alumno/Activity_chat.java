@@ -22,8 +22,8 @@ public class Activity_chat extends AppCompatActivity {
 
         Intent intent = this.getIntent();
 
-        int imagenAvatar = intent.getIntExtra("avatar",0);
-        String titulo = intent.getStringExtra("titulo");
+        int imagenAvatar = intent.getIntExtra("portada",0);
+        String titulo = intent.getStringExtra("nombre");
 
 
         tvTextoAlumno = (TextView) findViewById(R.id.tvDescAlumno);
